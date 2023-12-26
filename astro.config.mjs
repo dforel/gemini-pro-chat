@@ -60,7 +60,12 @@ export default defineConfig({
   ],
   output: 'server',
   adapter: envAdapter(),
+
+  // vite.build.minify = false
   vite: {
+    build: {
+      minify: false,
+    },
     plugins: [
       process.env.OUTPUT === 'vercel' && disableBlocks(),
       process.env.OUTPUT === 'netlify' && disableBlocks(),
