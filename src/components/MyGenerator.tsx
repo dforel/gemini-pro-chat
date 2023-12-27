@@ -272,7 +272,7 @@ export default () => {
             class="gen-textarea"
           />
           <button onClick={handleButtonClick} gen-slate-btn>
-            发送
+            send
           </button>
           <button title="重置" onClick={clear} gen-slate-btn>
             <IconClear />
