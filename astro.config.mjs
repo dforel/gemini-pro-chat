@@ -25,9 +25,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       injectRegister: 'inline',
       manifest: {
-        name: 'Gemini Pro Chat',
-        short_name: 'Gemini Pro',
-        description: 'Minimal web UI for Gemini Pro.',
+        name: 'GPT-Chat 吾爱开心网',
+        short_name: '开心GPT',
+        description: 'GPT-Chat 吾爱开心网搭建的GPT代理服务',
         theme_color: '#212129',
         background_color: '#ffffff',
         icons: [
